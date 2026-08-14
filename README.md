@@ -14,7 +14,7 @@
 
 ## About Me
 
-I'm a Manual & Automation QA Tester with 2 years of hands-on experience testing web and mobile applications in a fast-paced Agile environment, including work on a government-backed blockchain banking project. I care about catching issues before users ever see them, through structured test design, thorough regression coverage, and clear communication with developers and stakeholders.
+I'm a Manual & Automation QA Tester with 2 years of hands-on experience testing web and mobile applications in a fast-paced Agile environment, including work on a government-backed blockchain banking project. I care about catching issues before users ever see them — through structured test design, thorough regression coverage, and clear communication with developers and stakeholders.
 
 I'm now taking on QA/manual testing work on Upwork, offering the same rigor I brought to enterprise clients at TCS: full test case design, defect tracking, API validation, and cross-browser/cross-device testing.
 
@@ -56,7 +56,7 @@ You can view/download my resume here: **[Add your resume link — Google Drive, 
 
 **Postman** — REST API testing
 
-**Quartz** — Defect tracking tool
+**Quartz** — defect tracking
 
 **SQL** — complex queries, joins, subqueries for backend/data validation
 
@@ -79,17 +79,18 @@ You can view/download my resume here: **[Add your resume link — Google Drive, 
 > Note: work from TCS is under NDA and can't be shared directly. The examples below are recreated using public demo/practice sites so I can show my actual process without exposing confidential client data.
 
 ### Test Cases & TestRail
-- [Add: test case set for a public demo site, e.g. automationpractice or a similar sandbox — link to Google Sheets or TestRail screenshot]
-- [Add: a regression test suite example]
+- [Test case set for SauceDemo login & checkout flows](./test-cases-testrail.md) — written in TestRail-style format
+- [Regression suite example](./regression-suite.md) — grouped test cases plus a sample run report
 
 ### Bug Reports & JIRA
-- [Add: 2-3 sample bug reports with repro steps, severity/priority, screenshots — from a public demo app]
+- [3 sample bug reports](./bug-reports.md) — found via exploratory testing against SauceDemo's seeded test accounts, written in JIRA-style format with repro steps, severity, and priority
 
 ### API Testing
-- [Add: a Postman collection testing a public API, with example requests/responses/assertions]
+- [Postman collection](./reqres-api-tests.postman_collection.json) testing the public reqres.in API (CRUD + negative test), with assertions on status codes and response bodies
+- [Write-up of test coverage and approach](./api-testing.md)
 
 ### SQL Validation
-- [Add: a sample query set showing how you'd validate backend data against test cases]
+- [Sample SQL validation queries](./sql-validation.md) — data consistency, referential integrity, and report-logic checks against a typical e-commerce schema
 
 ## Education
 
